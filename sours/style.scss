@@ -282,7 +282,12 @@ object-fit: cover;
         width: 100%;
         padding: 15px;
       }
-      
+      @media(max-width:517px){
+        &__container {
+          width: 100%;
+          padding: 0px;
+        }
+      }
       
       &__body {
         display: flex;
@@ -346,7 +351,7 @@ object-fit: cover;
             color: #737373;
         }
         }
-        
+       
       }
   //-------------------------------------ADVICE-------------------------------------------------------------------------------------
         .advice {
